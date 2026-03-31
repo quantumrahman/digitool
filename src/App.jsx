@@ -3,7 +3,9 @@ import HeaderSection from './layouts/HeaderSection/HeaderSection.jsx';
 const App = () => {
     return (
         <>
-            <HeaderSection></HeaderSection>
+            <div className="relative overflow-hidden">
+                <HeaderSection></HeaderSection>
+            </div>
         </>
     );
 };
