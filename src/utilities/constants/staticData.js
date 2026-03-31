@@ -107,3 +107,24 @@ export const footerLinks = [
         ],
     },
 ];
+
+export const socialLinks = [
+    {
+        id: 1,
+        name: "Instagram",
+        icon: "instagram", // you can map this with react-icons
+        href: "https://instagram.com",
+    },
+    {
+        id: 2,
+        name: "Facebook",
+        icon: "facebook",
+        href: "https://facebook.com",
+    },
+    {
+        id: 3,
+        name: "Twitter/X",
+        icon: "x",
+        href: "https://x.com",
+    },
+];
