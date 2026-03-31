@@ -1,7 +1,9 @@
+import HeaderSection from './layouts/HeaderSection/HeaderSection.jsx';
+
 const App = () => {
     return (
         <>
-            <h1>Hello world</h1>
+            <HeaderSection></HeaderSection>
         </>
     );
 };
