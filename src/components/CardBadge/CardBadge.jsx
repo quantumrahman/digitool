@@ -1,5 +1,5 @@
 const CardBadge = ({ children, variant = 'New'}) => {
-    const defaultStyle = "font-family text-xs font-medium md:text-sm";
+    const defaultStyle = "w-fit font-family text-xs font-medium md:text-sm";
 
     const style = {
         "Best Seller": "text-[#BB4D00] bg-[#FEF3C6] rounded-full px-2 py-1 md:px-2.5 md:py-[5px] lg:px-3 lg:py-[6px]",
