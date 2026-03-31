@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ResumeAI Pro",
+      "description": "Create professional, ATS-optimized resumes in minutes using advanced AI.",
+      "price": 29,
+      "period": "monthly",
+      "tag": "Popular",
+      "tagType": "popular",
+      "features": [
+        "150+ ATS-friendly templates",
+        "Smart content suggestions",
+        "Keyword optimization",
+        "Export to PDF, Word & TXT",
+        "Unlimited resume generations"
+      ],
+      "icon": "resume"
+    },
+    {
+      "id": 2,
+      "name": "CoverLetter AI",
+      "description": "Generate highly personalized and impactful cover letters for any job.",
+      "price": 19,
+      "period": "monthly",
+      "tag": "New",
+      "tagType": "new",
+      "features": [
+        "Job description analysis",
+        "Multiple tone options",
+        "Grammar & clarity enhancement",
+        "3 different versions per letter",
+        "Instant delivery"
+      ],
+      "icon": "letter"
+    },
+    {
+      "id": 3,
+      "name": "InterviewAI Coach",
+      "description": "Master interviews with real-time AI feedback and practice sessions.",
+      "price": 39,
+      "period": "monthly",
+      "tag": "Best Seller",
+      "tagType": "best-seller",
+      "features": [
+        "1000+ interview questions",
+        "Real-time voice analysis",
+        "Behavioral question training",
+        "Performance analytics",
+        "Unlimited mock interviews"
+      ],
+      "icon": "interview"
+    },
+    {
+      "id": 4,
+      "name": "LinkedIn Profile Booster",
+      "description": "Optimize your LinkedIn profile to attract recruiters and opportunities.",
+      "price": 15,
+      "period": "monthly",
+      "tag": "",
+      "tagType": "",
+      "features": [
+        "Profile strength analysis",
+        "Headline & About section writer",
+        "Experience bullet enhancer",
+        "Skill & endorsement suggestions",
+        "Profile visibility tips"
+      ],
+      "icon": "linkedin"
+    },
+    {
+      "id": 5,
+      "name": "AI Career Advisor",
+      "description": "Get personalized career guidance, job recommendations and skill development plans.",
+      "price": 49,
+      "period": "monthly",
+      "tag": "Popular",
+      "tagType": "popular",
+      "features": [
+        "Personalized career roadmap",
+        "Skill gap analysis",
+        "Job market insights",
+        "Salary negotiation strategies",
+        "Weekly progress reports"
+      ],
+      "icon": "career"
+    },
+    {
+      "id": 6,
+      "name": "Portfolio Builder AI",
+      "description": "Build stunning professional portfolios with AI-generated content and designs.",
+      "price": 25,
+      "period": "monthly",
+      "tag": "New",
+      "tagType": "new",
+      "features": [
+        "AI project description writer",
+        "Modern responsive templates",
+        "Drag & drop builder",
+        "SEO optimization",
+        "Mobile-friendly design"
+      ],
+      "icon": "portfolio"
+    },
+    {
+      "id": 7,
+      "name": "Job Match AI",
+      "description": "Discover the best job opportunities that perfectly match your profile.",
+      "price": 0,
+      "period": "one-time",
+      "tag": "Free",
+      "tagType": "free",
+      "features": [
+        "Smart job matching engine",
+        "Application success prediction",
+        "Daily personalized job alerts",
+        "Missing skill detection",
+        "Save favorite jobs"
+      ],
+      "icon": "match"
+    },
+    {
+      "id": 8,
+      "name": "AI Resume Scanner",
+      "description": "Instantly analyze and improve your resume with ATS compatibility scoring.",
+      "price": 99,
+      "period": "yearly",
+      "tag": "Best Value",
+      "tagType": "best-value",
+      "features": [
+        "ATS compatibility score",
+        "Detailed improvement suggestions",
+        "Keyword gap analysis",
+        "Multiple scan credits",
+        "Lifetime updates"
+      ],
+      "icon": "scanner"
+    },
+    {
+      "id": 9,
+      "name": "Email Writer AI",
+      "description": "Write professional cold emails, follow-ups, and networking messages in seconds.",
+      "price": 12,
+      "period": "monthly",
+      "tag": "",
+      "tagType": "",
+      "features": [
+        "Cold email generator",
+        "Follow-up sequence creator",
+        "Tone customization",
+        "A/B testing suggestions",
+        "Email performance analytics"
+      ],
+      "icon": "email"
+    }
+  ]
+}
