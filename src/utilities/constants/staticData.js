@@ -74,3 +74,36 @@ export const pricingPlans = [
         ],
     },
 ];
+
+export const footerLinks = [
+    {
+        id: 1,
+        title: "Product",
+        links: [
+            { name: "Features", href: "/features" },
+            { name: "Pricing", href: "/pricing" },
+            { name: "Templates", href: "/templates" },
+            { name: "Integrations", href: "/integrations" },
+        ],
+    },
+    {
+        id: 2,
+        title: "Company",
+        links: [
+            { name: "About", href: "/about" },
+            { name: "Blog", href: "/blog" },
+            { name: "Careers", href: "/careers" },
+            { name: "Press", href: "/press" },
+        ],
+    },
+    {
+        id: 3,
+        title: "Resources",
+        links: [
+            { name: "Documentation", href: "/docs" },
+            { name: "Help Center", href: "/help" },
+            { name: "Community", href: "/community" },
+            { name: "Contact", href: "/contact" },
+        ],
+    },
+];
