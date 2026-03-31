@@ -1,9 +1,13 @@
 import { Check } from "lucide-react";
+import CardBadge from '../CardBadge/CardBadge.jsx';
 
 const ProductCard = () => {
     return (
         <>
             <div className="w-full relative p-4 bg-white border border-[#F2F2F2] rounded-2xl flex justify-center flex-col gap-4 md:p-5 lg:p-6">
+                <div className="w-full absolute top-3 right-3 flex items-center justify-end">
+                    <CardBadge variant="Best Seller">Best Seller</CardBadge>
+                </div>
                 <div className="w-[60px] h-[60px] flex items-center justify-center rounded-full border border-[#F2F2F2]">
                     {/* img icon */}
                 </div>
