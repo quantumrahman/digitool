@@ -1,4 +1,4 @@
-const Main = () => {
+const MainSection = () => {
     return (
         <>
         
@@ -6,4 +6,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainSection;
