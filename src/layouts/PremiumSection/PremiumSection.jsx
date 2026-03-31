@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SectionHeading from '../../components/SectionHeading/SectionHeading.jsx';
+import ProductCard from '../../components/ProductCard/ProductCard.jsx';
 
 const PremiumSection = () => {
     const [tab, setTab] = useState('products');
@@ -20,7 +21,7 @@ const PremiumSection = () => {
                         </div>
                     </div>
                     <div className='w-full mt-5 grid grid-cols-1 md:mt-10 md:grid-cols-2 lg:grid-cols-3'>
-                        
+                        <ProductCard></ProductCard>
                     </div>
                 </div>
             </div>
