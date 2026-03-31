@@ -42,7 +42,7 @@ const HeaderSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`w-full max-w-[350px] min-h-screen absolute top-0 right-0 bg-white/10 backdrop-blur-sm z-20 transform transition-transform duration-300 p-4 ${toggle ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`w-full max-w-[350px] min-h-screen fixed top-0 right-0 bg-white/10 backdrop-blur-sm z-20 transform transition-transform duration-300 p-4 ${toggle ? 'translate-x-0' : 'translate-x-full'}`}>
                     <div className="w-full flex items-center justify-between">
                         <button onClick={handleToggle} className="cursor-pointer">
                             <X size={30} color='#101727'></X>
