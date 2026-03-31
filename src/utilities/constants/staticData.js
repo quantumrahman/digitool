@@ -128,3 +128,11 @@ export const socialLinks = [
         href: "https://x.com",
     },
 ];
+
+export const navLinks = [
+    { id: 1, label: "Products", path: "/products" },
+    { id: 2, label: "Features", path: "/features" },
+    { id: 3, label: "Pricing", path: "/pricing" },
+    { id: 4, label: "Testimonials", path: "/testimonials" },
+    { id: 5, label: "FAQ", path: "/faq" },
+];
