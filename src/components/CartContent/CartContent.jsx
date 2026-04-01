@@ -1,6 +1,7 @@
 import CartCard from "../CartCard/CartCard.jsx";
 
-const CartContent = () => {
+const CartContent = ({ cart }) => {
+    console.log(cart);
     return (
         <>
             <div className="w-full min-h-[485px] mt-5 bg-white border border-[#F2F2F2] rounded-2xl p-4 flex justify-center flex-col gap-4 md:p-6 md:gap-6 lg:p-10">
@@ -8,9 +9,9 @@ const CartContent = () => {
                     <h3 className="font-family text-xl font-bold text-[#101727] md:text-[22px] lg:text-2xl">Your Cart</h3>
                 </div>
                 <div className="w-full flex justify-center flex-col gap-4">
-                    <CartCard></CartCard>
-                    <CartCard></CartCard>
-                    <CartCard></CartCard>
+                    {cart.map((product) => (
+                        <CartCard product={product}></CartCard>
+                    ))}
                 </div>
                 <div className="w-full flex items-center justify-between">
                     <p className="font-family text-sm font-normal text-[#627382] md:text-base">Total:</p>

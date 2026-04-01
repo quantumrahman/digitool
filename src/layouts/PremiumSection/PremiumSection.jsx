@@ -8,14 +8,12 @@ import CartContent from "../../components/CartContent/CartContent.jsx";
 const PremiumSection = ({ productPromies }) => {
     // const productPromies = fetchProduct();
 
-    const [tab, setTab] = useState('carts');
+    const [tab, setTab] = useState('products');
     const [cart, setCart] = useState([]);
 
     const handleTab = (selectTab) => {
         setTab(selectTab);
     };
-
-    console.log(cart);
 
     return (
         <>
@@ -35,7 +33,7 @@ const PremiumSection = ({ productPromies }) => {
                     }
 
                     {tab === 'carts' && 
-                        <CartContent></CartContent>
+                        <CartContent cart={cart}></CartContent>
                     }
                 </div>
             </div>
