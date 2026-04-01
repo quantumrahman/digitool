@@ -114,7 +114,7 @@ export const socialLinks = [
     {
         id: 1,
         name: "Instagram",
-        icon: "instagram", // you can map this with react-icons
+        icon: "instagram",
         href: "https://instagram.com",
     },
     {
@@ -132,9 +132,29 @@ export const socialLinks = [
 ];
 
 export const navLinks = [
-    { id: 1, label: "Products", path: "/products" },
-    { id: 2, label: "Features", path: "/features" },
-    { id: 3, label: "Pricing", path: "/pricing" },
-    { id: 4, label: "Testimonials", path: "/testimonials" },
-    { id: 5, label: "FAQ", path: "/faq" },
+    { 
+        id: 1, 
+        label: "Products", 
+        path: "/products" 
+    },
+    { 
+        id: 2, 
+        label: "Features", 
+        path: "/features" 
+    },
+    { 
+        id: 3, 
+        label: "Pricing", 
+        path: "/pricing" 
+    },
+    { 
+        id: 4, 
+        label: "Testimonials",
+         path: "/testimonials" 
+        },
+    { 
+        id: 5, 
+        label: "FAQ", 
+        path: "/faq" 
+    },
 ];
