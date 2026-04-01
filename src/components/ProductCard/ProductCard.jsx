@@ -11,7 +11,6 @@ const ProductCard = ({ product, setCart, cart }) => {
         const productExits = cart.find((item) => item.id === product.id);
 
         if (productExits) {
-            console.log('error');
             return;
         };
 

@@ -1,13 +1,10 @@
 import { Suspense, useState } from "react";
-// import fetchProduct from '../../api/productApi.js';
 import Loading from "../../components/Loading/Loading.jsx";
 import SectionHeading from '../../components/SectionHeading/SectionHeading.jsx';
 import PremiumContent from "../../components/PremiumContent/PremiumContent.jsx";
 import CartContent from "../../components/CartContent/CartContent.jsx";
 
 const PremiumSection = ({ productPromies }) => {
-    // const productPromies = fetchProduct();
-
     const [tab, setTab] = useState('products');
     const [cart, setCart] = useState([]);
 
