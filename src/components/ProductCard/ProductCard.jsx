@@ -1,18 +1,38 @@
 import { Check } from "lucide-react";
 import CardBadge from '../CardBadge/CardBadge.jsx';
 import { useState } from "react";
+import { toast, Bounce } from "react-toastify";
 
 const ProductCard = ({ product, setCart, cart }) => {
     const [buyNow, setBuyNow] = useState(false);
 
     const handleBuyNow = (product) => {
         setBuyNow(true);
-
+        
         const productExits = cart.find((item) => item.id === product.id);
-
+            
         if (productExits) {
+            toast.error('Product already add to cart!', {
+                position: "bottom-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                theme: "light",
+                transition: Bounce,
+            });
             return;
         };
+        
+        toast.success('Product add to cart!', {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
 
         setCart([...cart, product]);
     };

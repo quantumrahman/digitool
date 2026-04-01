@@ -1,15 +1,33 @@
 import CartCard from "../CartCard/CartCard.jsx";
+import { toast, Bounce } from "react-toastify";
 
 const CartContent = ({ cart, setCart }) => {
     const totalPrice = cart.reduce((acc, curr) => acc + curr.price, 0);
 
     const handleCheckout = () => {
+        toast.success('Payment successfull!', {
+            position: "bottom-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            theme: "light",
+            transition: Bounce,
+        });
+
         setCart([]);
     };
 
     const handleDeleted = (item) => {
         const filterProduct = cart.filter((product) => product.id !== item.id);
+
         setCart(filterProduct);
+
+        toast.success('Delete product from cart!', {
+            position: "bottom-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            theme: "light",
+            transition: Bounce,
+        });
     };
 
     return (

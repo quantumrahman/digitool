@@ -1,6 +1,7 @@
 import HeaderSection from './layouts/HeaderSection/HeaderSection.jsx';
 import MainSection from './layouts/MainSection/MainSection.jsx';
 import FooterSection from './layouts/FooterSection/FooterSection.jsx';
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
                 <MainSection></MainSection>
                 <FooterSection></FooterSection>
             </div>
+            <ToastContainer></ToastContainer>
         </>
     );
 };

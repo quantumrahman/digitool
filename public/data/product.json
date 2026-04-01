@@ -11,9 +11,7 @@
       "features": [
         "Advanced reasoning capabilities",
         "Web browsing & data analysis",
-        "Image generation & analysis",
-        "Voice conversation support",
-        "Custom GPTs"
+        "Image generation & analysis"
       ],
       "icon": "/images/chatgpt-ai-icon.png"
     },
@@ -28,9 +26,7 @@
       "features": [
         "Excellent at long-form writing",
         "Strong coding capabilities",
-        "Constitutional AI principles",
-        "Large context window",
-        "Artifact creation"
+        "Constitutional AI principles"
       ],
       "icon": "/images/claude-ai-icon.png"
     },
@@ -45,9 +41,7 @@
       "features": [
         "Strong coding performance",
         "Advanced math capabilities",
-        "Open source & transparent",
-        "Efficient inference",
-        "Multi-language support"
+        "Open source & transparent"
       ],
       "icon": "/images/deepseek-ai-icon.png"
     },
@@ -62,9 +56,7 @@
       "features": [
         "Multimodal understanding",
         "Real-time web access",
-        "Deep Google ecosystem integration",
-        "Advanced image & video analysis",
-        "1.5 Pro & Flash models"
+        "Deep Google ecosystem integration"
       ],
       "icon": "/images/gemini-ai-icon.png"
     },
@@ -79,9 +71,7 @@
       "features": [
         "Real-time information via X",
         "Advanced reasoning & humor",
-        "Image generation & analysis",
-        "No strict content filters",
-        "Built by xAI"
+        "Image generation & analysis"
       ],
       "icon": "/images/grok-ai-icon.png"
     },
@@ -96,9 +86,7 @@
       "features": [
         "Free to use",
         "Image generation with Imagine",
-        "Deep integration with Meta apps",
-        "Llama 3.2 & 4 models",
-        "Voice mode support"
+        "Deep integration with Meta apps"
       ],
       "icon": "/images/meta-ai-icon.png"
     },
@@ -113,9 +101,7 @@
       "features": [
         "Excellent multilingual support",
         "Strong coding performance",
-        "Large context window",
-        "Open source versions available",
-        "High benchmark scores"
+        "Large context window"
       ],
       "icon": "/images/qwen-ai-icon.png"
     },
@@ -130,9 +116,7 @@
       "features": [
         "Real-time web search",
         "Accurate citations",
-        "Pro search mode",
-        "File & image analysis",
-        "Voice input support"
+        "Pro search mode"
       ],
       "icon": "/images/perplexity-ai-icon.png"
     },
@@ -147,9 +131,7 @@
       "features": [
         "Fast and efficient models",
         "Strong reasoning abilities",
-        "Open source leadership",
-        "Excellent coding support",
-        "Le Chat assistant"
+        "Open source leadership"
       ],
       "icon": "/images/mistral-ai-icon.png"
     }
