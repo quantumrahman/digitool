@@ -15,7 +15,7 @@
         "Voice conversation support",
         "Custom GPTs"
       ],
-      "icon": "./public/chatgpt-ai-icon.png"
+      "icon": "/chatgpt-ai-icon.png"
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
         "Large context window",
         "Artifact creation"
       ],
-      "icon": "./public/claude-ai-icon.png"
+      "icon": "/claude-ai-icon.png"
     },
     {
       "id": 3,
@@ -49,7 +49,7 @@
         "Efficient inference",
         "Multi-language support"
       ],
-      "icon": "./public/deepseek-ai-icon.png"
+      "icon": "/deepseek-ai-icon.png"
     },
     {
       "id": 4,
@@ -66,7 +66,7 @@
         "Advanced image & video analysis",
         "1.5 Pro & Flash models"
       ],
-      "icon": "./public/gemini-ai-icon.png"
+      "icon": "/gemini-ai-icon.png"
     },
     {
       "id": 5,
@@ -83,7 +83,7 @@
         "No strict content filters",
         "Built by xAI"
       ],
-      "icon": "./public/grok-ai-icon.png"
+      "icon": "/grok-ai-icon.png"
     },
     {
       "id": 6,
@@ -100,7 +100,7 @@
         "Llama 3.2 & 4 models",
         "Voice mode support"
       ],
-      "icon": "./public/meta-ai-icon.png"
+      "icon": "/meta-ai-icon.png"
     },
     {
       "id": 7,
@@ -117,7 +117,7 @@
         "Open source versions available",
         "High benchmark scores"
       ],
-      "icon": "./public/qwen-ai-icon.png"
+      "icon": "/qwen-ai-icon.png"
     },
     {
       "id": 8,
@@ -134,7 +134,7 @@
         "File & image analysis",
         "Voice input support"
       ],
-      "icon": "./public/perplexity-ai-icon.png"
+      "icon": "/perplexity-ai-icon.png"
     },
     {
       "id": 9,
@@ -151,7 +151,7 @@
         "Excellent coding support",
         "Le Chat assistant"
       ],
-      "icon": "./public/mistral-ai-icon.png"
+      "icon": "/mistral-ai-icon.png"
     }
   ]
 } 
