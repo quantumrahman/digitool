@@ -1,8 +1,16 @@
 import { Check } from "lucide-react";
 import CardBadge from '../CardBadge/CardBadge.jsx';
+import { useState } from "react";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, setCart, cart }) => {
+    const [buyNow, setBuyNow] = useState(false);
 
+    const handleBuyNow = (product) => {
+        setBuyNow(true);
+        console.log(product);
+        setCart([...cart, product]);
+    };
+    
     return (
         <>
             <div className="w-full relative p-4 bg-white border border-[#F2F2F2] rounded-2xl flex justify-center flex-col gap-4 md:p-5 lg:p-6">
@@ -25,7 +33,7 @@ const ProductCard = ({ product }) => {
                         ))}
                     </ul>
                 </div>
-                <button className="w-full py-3 px-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full font-family text-sm font-bold text-white cursor-pointer transition-all duration-300 ease-in-out hover:shadow-[0_0_6px_rgba(79,57,246,0.4),0_0_12px_rgba(149,20,250,0.4)] md:py-3 md:px-4 md:text-base lg:py-4 lg:px-3">Buy Now</button>
+                <button onClick={() => handleBuyNow(product)} className="w-full py-3 px-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full font-family text-sm font-bold text-white cursor-pointer transition-all duration-300 ease-in-out hover:shadow-[0_0_6px_rgba(79,57,246,0.4),0_0_12px_rgba(149,20,250,0.4)] md:py-3 md:px-4 md:text-base lg:py-4 lg:px-3">{buyNow ? 'Add To Card' : 'Buy Now'}</button>
             </div>
         </>
     );

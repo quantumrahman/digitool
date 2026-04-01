@@ -1,10 +1,12 @@
 import PremiumSection from '../PremiumSection/PremiumSection.jsx';
+import fetchProduct from '../../api/productApi.js';
 
 const MainSection = () => {
-
+    const productPromies = fetchProduct();
+    
     return (
         <>
-            <PremiumSection></PremiumSection>
+            <PremiumSection productPromies={productPromies}></PremiumSection>
         </>
     );
 };
