@@ -1,4 +1,4 @@
-const CartCard = ({ product }) => {
+const CartCard = ({ product, handleDeleted }) => {
     return (
         <>
             <div className="w-full flex items-center justify-between p-4 bg-[#F9FAFC] rounded-2xl md:p-[20px]">
@@ -11,7 +11,7 @@ const CartCard = ({ product }) => {
                         <p className="font-family text-sm font-medium text-[#627382] md:text-base">${product?.price}</p>
                     </div>
                 </div>
-                <button className="font-family text-sm font-bold text-[#FF3980] cursor-pointer transition-all duration-300 delay-300 hover:underline md:text-base">Remove</button>
+                <button onClick={() => handleDeleted(product)} className="font-family text-sm font-bold text-[#FF3980] cursor-pointer transition-all duration-300 delay-300 hover:underline md:text-base">Remove</button>
             </div>
         </>
     );

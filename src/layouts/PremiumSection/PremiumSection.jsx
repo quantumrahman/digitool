@@ -33,7 +33,7 @@ const PremiumSection = ({ productPromies }) => {
                     }
 
                     {tab === 'carts' && 
-                        <CartContent cart={cart}></CartContent>
+                        <CartContent cart={cart} setCart={setCart}></CartContent>
                     }
                 </div>
             </div>

@@ -7,7 +7,14 @@ const ProductCard = ({ product, setCart, cart }) => {
 
     const handleBuyNow = (product) => {
         setBuyNow(true);
-        console.log(product);
+
+        const productExits = cart.find((item) => item.id === product.id);
+
+        if (productExits) {
+            console.log('error');
+            return;
+        };
+
         setCart([...cart, product]);
     };
     
@@ -22,7 +29,7 @@ const ProductCard = ({ product, setCart, cart }) => {
                 </div>
                 <h3 className="font-family text-lg font-bold text-[#101727] md:text-xl lg:text-2xl">{product?.name}</h3>
                 <p className="font-family text-sm font-normal text-[#627382] md:text-base">{product?.description}</p>
-                <p className="font-family text-lg font-bold text-[#101727] md:text-xl lg:text-2xl">$20<span className="font-family text-sm font-normal text-[#627382] md:text-base capitalize">/{product?.period}</span></p>
+                <p className="font-family text-lg font-bold text-[#101727] md:text-xl lg:text-2xl">${product?.price}<span className="font-family text-sm font-normal text-[#627382] md:text-base capitalize">/{product?.period}</span></p>
                 <div className="w-auto">
                     <ul className="flex justify-center flex-col gap-2">
                         {product?.features.map((feature, idx) => (
