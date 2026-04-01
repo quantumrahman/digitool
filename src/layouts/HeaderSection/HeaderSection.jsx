@@ -25,12 +25,7 @@ const HeaderSection = () => {
                                 </ul>
                             </nav>
                             <div className="w-auto hidden items-center justify-center gap-4 lg:flex">
-                                <div className="relative">
-                                    <ShoppingCart size={20} color='#101727'></ShoppingCart>
-                                    <div className="w-5 h-5 bg-white rounded-full absolute -top-2 -right-2 flex items-center justify-center">
-                                        <span className="font-family text-sm font-semibold text-[#101727]">0</span>
-                                    </div>
-                                </div>
+                                <ShoppingCart size={20} color='#101727'></ShoppingCart>
                                 <a href="#" className="w-fit font-family text-base font-semibold text-[#101727] transition-all duration-200 delay-200 hover:underline">Login</a>
                                 <button className="px-4 py-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full font-family text-base font-semibold text-white cursor-pointer transition-all duration-300 ease-in-out hover:shadow-[0_0_6px_rgba(79,57,246,0.4),0_0_12px_rgba(149,20,250,0.4)]">Get Started</button>
                             </div>
@@ -47,12 +42,7 @@ const HeaderSection = () => {
                         <button onClick={handleToggle} className="cursor-pointer">
                             <X size={30} color='#101727'></X>
                         </button>
-                        <div className="relative">
-                            <ShoppingCart size={25} color='#101727'></ShoppingCart>
-                            <div className="w-5 h-5 bg-white rounded-full absolute -top-2 -right-2 flex items-center justify-center">
-                                <span className="font-family text-sm font-semibold text-[#101727]">0</span>
-                            </div>
-                        </div>
+                        <ShoppingCart size={25} color='#101727'></ShoppingCart>
                     </div>
                     <nav className="w-full mt-10 pl-2">
                         <ul className='flex justify-center flex-col gap-5'>
