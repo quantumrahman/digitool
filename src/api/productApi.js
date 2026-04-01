@@ -1,8 +1,6 @@
-import product from '../public/product.json';
-
 const fetchProduct = async () => {
     try {
-        const response = await fetch(product);
+        const response = await fetch('../data/product.json');
         return await response.json();
     } catch (error) {
         console.log(error);

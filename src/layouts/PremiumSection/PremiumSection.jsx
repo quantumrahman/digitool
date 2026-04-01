@@ -1,5 +1,5 @@
 import { Suspense, useState } from "react";
-import fetchProduct from '../../../api/productApi.js';
+import fetchProduct from '../../api/productApi.js';
 import Loading from "../../components/Loading/Loading.jsx";
 import SectionHeading from '../../components/SectionHeading/SectionHeading.jsx';
 import PremiumContent from "../../components/PremiumContent/PremiumContent.jsx";
