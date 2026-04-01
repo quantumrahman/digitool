@@ -36,6 +36,8 @@ export const pricingPlans = [
             "Basic templates",
             "Community support",
             "1 project per month",
+            "Email support",
+            "Analytics dashboard",
         ],
     },
     {
