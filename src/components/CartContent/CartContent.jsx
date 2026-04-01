@@ -1,3 +1,5 @@
+import CartCard from "../CartCard/CartCard.jsx";
+
 const CartContent = () => {
     return (
         <>
@@ -6,7 +8,7 @@ const CartContent = () => {
                     <h3 className="font-family text-xl font-bold text-[#101727] md:text-[22px] lg:text-2xl">Your Cart</h3>
                 </div>
                 <div className="w-full flex justify-center flex-col gap-4">
-                    
+                    <CartCard></CartCard>
                 </div>
             </div>
         </>
