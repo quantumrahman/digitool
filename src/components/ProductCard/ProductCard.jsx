@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import CardBadge from '../CardBadge/CardBadge.jsx';
 
 const ProductCard = ({ product }) => {
-    console.log(product);
+
     return (
         <>
             <div className="w-full relative p-4 bg-white border border-[#F2F2F2] rounded-2xl flex justify-center flex-col gap-4 md:p-5 lg:p-6">
