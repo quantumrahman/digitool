@@ -5,6 +5,7 @@ import PremiumSection from '../PremiumSection/PremiumSection.jsx';
 import StepsSection from '../StepsSection/StepsSection.jsx';
 import PricingSection from '../PricingSection/PricingSection.jsx';
 import LetterSection from '../LetterSection/LetterSection.jsx';
+import FooterSection from '../FooterSection/FooterSection.jsx';
 
 const MainSection = () => {
     const productPromies = fetchProduct();
@@ -17,6 +18,7 @@ const MainSection = () => {
             <StepsSection></StepsSection>
             <PricingSection></PricingSection>
             <LetterSection></LetterSection>
+            <FooterSection></FooterSection>
         </>
     );
 };
