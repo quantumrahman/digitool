@@ -9,16 +9,16 @@ const ProductCard = ({ product }) => {
                 <div className="w-full absolute top-3 right-3 flex items-center justify-end">
                     <CardBadge variant={`${product?.tag}`}>{product?.tag}</CardBadge>
                 </div>
-                <div className="w-[60px] h-[60px] flex items-center justify-center rounded-full border border-[#F2F2F2]">
-                    {/* img icon */}
+                <div className="w-[60px] h-[60px] flex items-center justify-center rounded-full border border-[#F2F2F2] overflow-hidden">
+                    <img src={product?.icon} alt='logo icon' />
                 </div>
                 <h3 className="font-family text-lg font-bold text-[#101727] md:text-xl lg:text-2xl">{product?.name}</h3>
                 <p className="font-family text-sm font-normal text-[#627382] md:text-base">{product?.description}</p>
                 <p className="font-family text-lg font-bold text-[#101727] md:text-xl lg:text-2xl">$20<span className="font-family text-sm font-normal text-[#627382] md:text-base capitalize">/{product?.period}</span></p>
                 <div className="w-auto">
                     <ul className="flex justify-center flex-col gap-2">
-                        {product?.features.map((feature) => (
-                            <li className="flex items-center gap-2">
+                        {product?.features.map((feature, idx) => (
+                            <li key={idx} className="flex items-center gap-2">
                                 <Check size={20} color="#30B868"></Check>
                                 <span className="font-family text-sm font-medium text-[#627382] md:text-base">{feature}</span>
                             </li>

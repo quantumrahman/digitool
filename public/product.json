@@ -2,156 +2,156 @@
   "products": [
     {
       "id": 1,
-      "name": "ResumeAI Pro",
-      "description": "Create professional, ATS-optimized resumes in minutes using advanced AI.",
-      "price": 29,
+      "name": "ChatGPT",
+      "description": "The most popular AI chatbot by OpenAI. Great for creative writing, coding, and general conversations.",
+      "price": 20,
       "period": "monthly",
       "tag": "Popular",
       "tagType": "popular",
       "features": [
-        "150+ ATS-friendly templates",
-        "Smart content suggestions",
-        "Keyword optimization",
-        "Export to PDF, Word & TXT",
-        "Unlimited resume generations"
+        "Advanced reasoning capabilities",
+        "Web browsing & data analysis",
+        "Image generation & analysis",
+        "Voice conversation support",
+        "Custom GPTs"
       ],
-      "icon": "resume"
+      "icon": "/public/chatgpt-ai-icon.png"
     },
     {
       "id": 2,
-      "name": "CoverLetter AI",
-      "description": "Generate highly personalized and impactful cover letters for any job.",
-      "price": 19,
-      "period": "monthly",
-      "tag": "New",
-      "tagType": "new",
-      "features": [
-        "Job description analysis",
-        "Multiple tone options",
-        "Grammar & clarity enhancement",
-        "3 different versions per letter",
-        "Instant delivery"
-      ],
-      "icon": "letter"
-    },
-    {
-      "id": 3,
-      "name": "InterviewAI Coach",
-      "description": "Master interviews with real-time AI feedback and practice sessions.",
-      "price": 39,
+      "name": "Claude",
+      "description": "Anthropic's powerful AI assistant known for its helpfulness, honesty, and thoughtful responses.",
+      "price": 20,
       "period": "monthly",
       "tag": "Best Seller",
       "tagType": "best-seller",
       "features": [
-        "1000+ interview questions",
-        "Real-time voice analysis",
-        "Behavioral question training",
-        "Performance analytics",
-        "Unlimited mock interviews"
+        "Excellent at long-form writing",
+        "Strong coding capabilities",
+        "Constitutional AI principles",
+        "Large context window",
+        "Artifact creation"
       ],
-      "icon": "interview"
+      "icon": "/public/claude-ai-icon.png"
+    },
+    {
+      "id": 3,
+      "name": "DeepSeek",
+      "description": "High-performance open-source AI model excelling in coding and mathematical reasoning.",
+      "price": 0,
+      "period": "one-time",
+      "tag": "New",
+      "tagType": "new",
+      "features": [
+        "Strong coding performance",
+        "Advanced math capabilities",
+        "Open source & transparent",
+        "Efficient inference",
+        "Multi-language support"
+      ],
+      "icon": "/public/deepseek-ai-icon.png"
     },
     {
       "id": 4,
-      "name": "LinkedIn Profile Booster",
-      "description": "Optimize your LinkedIn profile to attract recruiters and opportunities.",
-      "price": 15,
-      "period": "monthly",
-      "tag": "",
-      "tagType": "",
-      "features": [
-        "Profile strength analysis",
-        "Headline & About section writer",
-        "Experience bullet enhancer",
-        "Skill & endorsement suggestions",
-        "Profile visibility tips"
-      ],
-      "icon": "linkedin"
-    },
-    {
-      "id": 5,
-      "name": "AI Career Advisor",
-      "description": "Get personalized career guidance, job recommendations and skill development plans.",
-      "price": 49,
+      "name": "Gemini",
+      "description": "Google's multimodal AI with deep integration across Google services and real-time knowledge.",
+      "price": 19.99,
       "period": "monthly",
       "tag": "Popular",
       "tagType": "popular",
       "features": [
-        "Personalized career roadmap",
-        "Skill gap analysis",
-        "Job market insights",
-        "Salary negotiation strategies",
-        "Weekly progress reports"
+        "Multimodal understanding",
+        "Real-time web access",
+        "Deep Google ecosystem integration",
+        "Advanced image & video analysis",
+        "1.5 Pro & Flash models"
       ],
-      "icon": "career"
+      "icon": "/public/gemini-ai-icon.png"
+    },
+    {
+      "id": 5,
+      "name": "Grok",
+      "description": "Built by xAI. A witty, helpful, and maximally truth-seeking AI with real-time knowledge.",
+      "price": 16,
+      "period": "monthly",
+      "tag": "Best Seller",
+      "tagType": "best-seller",
+      "features": [
+        "Real-time information via X",
+        "Advanced reasoning & humor",
+        "Image generation & analysis",
+        "No strict content filters",
+        "Built by xAI"
+      ],
+      "icon": "/public/grok-ai-icon.png"
     },
     {
       "id": 6,
-      "name": "Portfolio Builder AI",
-      "description": "Build stunning professional portfolios with AI-generated content and designs.",
-      "price": 25,
-      "period": "monthly",
-      "tag": "New",
-      "tagType": "new",
+      "name": "Meta AI",
+      "description": "Meta's powerful open AI assistant integrated with WhatsApp, Instagram, and Facebook.",
+      "price": 0,
+      "period": "one-time",
+      "tag": "Popular",
+      "tagType": "popular",
       "features": [
-        "AI project description writer",
-        "Modern responsive templates",
-        "Drag & drop builder",
-        "SEO optimization",
-        "Mobile-friendly design"
+        "Free to use",
+        "Image generation with Imagine",
+        "Deep integration with Meta apps",
+        "Llama 3.2 & 4 models",
+        "Voice mode support"
       ],
-      "icon": "portfolio"
+      "icon": "/public/meta-ai-icon.png"
     },
     {
       "id": 7,
-      "name": "Job Match AI",
-      "description": "Discover the best job opportunities that perfectly match your profile.",
+      "name": "Qwen",
+      "description": "Alibaba's powerful large language model series with strong multilingual and coding abilities.",
       "price": 0,
       "period": "one-time",
-      "tag": "Free",
-      "tagType": "free",
+      "tag": "New",
+      "tagType": "new",
       "features": [
-        "Smart job matching engine",
-        "Application success prediction",
-        "Daily personalized job alerts",
-        "Missing skill detection",
-        "Save favorite jobs"
+        "Excellent multilingual support",
+        "Strong coding performance",
+        "Large context window",
+        "Open source versions available",
+        "High benchmark scores"
       ],
-      "icon": "match"
+      "icon": "/public/qwen-ai-icon.png"
     },
     {
       "id": 8,
-      "name": "AI Resume Scanner",
-      "description": "Instantly analyze and improve your resume with ATS compatibility scoring.",
-      "price": 99,
-      "period": "yearly",
-      "tag": "Best Value",
-      "tagType": "best-value",
+      "name": "Perplexity",
+      "description": "AI-powered search engine that provides accurate answers with real-time web citations.",
+      "price": 20,
+      "period": "monthly",
+      "tag": "Best Seller",
+      "tagType": "best-seller",
       "features": [
-        "ATS compatibility score",
-        "Detailed improvement suggestions",
-        "Keyword gap analysis",
-        "Multiple scan credits",
-        "Lifetime updates"
+        "Real-time web search",
+        "Accurate citations",
+        "Pro search mode",
+        "File & image analysis",
+        "Voice input support"
       ],
-      "icon": "scanner"
+      "icon": "/public/perplexity-ai-icon.png"
     },
     {
       "id": 9,
-      "name": "Email Writer AI",
-      "description": "Write professional cold emails, follow-ups, and networking messages in seconds.",
-      "price": 12,
+      "name": "Mistral",
+      "description": "High-performance European AI models known for efficiency and strong reasoning capabilities.",
+      "price": 15,
       "period": "monthly",
-      "tag": "",
-      "tagType": "",
+      "tag": "Popular",
+      "tagType": "popular",
       "features": [
-        "Cold email generator",
-        "Follow-up sequence creator",
-        "Tone customization",
-        "A/B testing suggestions",
-        "Email performance analytics"
+        "Fast and efficient models",
+        "Strong reasoning abilities",
+        "Open source leadership",
+        "Excellent coding support",
+        "Le Chat assistant"
       ],
-      "icon": "email"
+      "icon": "/public/mistral-ai-icon.png"
     }
   ]
-}
+} 
