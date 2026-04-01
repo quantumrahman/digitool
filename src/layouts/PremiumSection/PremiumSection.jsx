@@ -1,5 +1,6 @@
 import { Suspense, useState } from "react";
 import fetchProduct from '../../../api/productApi.js';
+import Loading from "../../components/Loading/Loading.jsx";
 import SectionHeading from '../../components/SectionHeading/SectionHeading.jsx';
 import PremiumContent from "../../components/PremiumContent/PremiumContent.jsx";
 
@@ -23,7 +24,7 @@ const PremiumSection = () => {
                             <button onClick={() => handleTab('carts')} className={`w-[100px] rounded-full py-2.5 px-3 font-family text-sm font-bold cursor-pointer md:py-3 md:px-[14px] md:text-base md:w-[110px] lg:py-4 lg:px-[14px] lg:w-[120px] ${tab === 'carts' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-[0_0_6px_rgba(79,57,246,0.4),0_0_12px_rgba(149,20,250,0.4)]' : 'text-[#101720]'}`}>Cart(0)</button>
                         </div>
                     </div>
-                    <Suspense fallback={<h1>Loading...</h1>}>
+                    <Suspense fallback={<Loading></Loading>}>
                         <PremiumContent productPromies={productPromies}></PremiumContent>
                     </Suspense>
                 </div>
