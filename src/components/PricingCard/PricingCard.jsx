@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 
 const PricingCard = ({ title, tagline, price, duration, isPopular, buttonText, features }) => {
-    console.log(features);
+    
     return (
         <>
             <div className={`w-full relative p-4 ${isPopular ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-[#F9FAFC]'} border border-[#F2F2F2] rounded-2xl flex items-center flex-col gap-4 md:p-5 md:gap-6 lg:p-6`}>
@@ -14,8 +14,8 @@ const PricingCard = ({ title, tagline, price, duration, isPopular, buttonText, f
                 </div>
                 <div className="w-full min-h-[185px]">
                     <ul className="flex justify-center flex-col gap-2">
-                        {features.map((feat) => (
-                            <li key={feat.id} className="flex items-center gap-2">
+                        {features.map((feat, idx) => (
+                            <li key={idx} className="flex items-center gap-2">
                                 <Check size={20} color={`${isPopular ? '#ffffff' : '#30B868'}`}></Check>
                                 <span className={`font-family text-sm font-medium ${isPopular ? 'text-white' : 'text-[#627382]'} md:text-base`}>{feat}</span>
                             </li>
